@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  FilmSquad
+//
+//  Created by tarena_cz on 16/11/30.
+//  Copyright © 2016年 cz. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Utils.h"
+#import <BmobSDK/Bmob.h>
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import "SDPhotoBrowser.h"
+#import "SVProgressHUD.h"
+#import "SVPullToRefresh.h"
+#import "Masonry.h"
+#import <EaseMob.h>
+#import "EaseMobManager.h"
+#import "CZWebUtils.h"
+
+
+//屏幕宽高
+#define kWIDTH [UIScreen mainScreen].bounds.size.width
+#define kHEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define kSpacing 8
+#define BubbleWidth (kWIDTH - 40 - 3 * kSpacing)
+
+//颜色
+#define kGreenColor [UIColor colorWithRed:62.0/255 green:180.0/255 blue:62.0/255 alpha:1]
+#define kBlueColor [UIColor colorWithRed:40.0/255 green:118.0/255 blue:236.0/255 alpha:1]
+#define kWhiteColor [UIColor colorWithRed:235.0/255 green:235.0/255 blue:235.0/258 alpha:1]
+#define kGrayColor [UIColor colorWithRed:200.0/255 green:203.0/255 blue:211.0/255 alpha:0.3]
+#define CZBlueColor [UIColor colorWithRed:75.0/255 green:177.0/255 blue:250.0/255 alpha:1]
+
+//毛玻璃透明度
+#define kGlassAlpha 0.9
+
+//字体
+#define YuanFont(x) [UIFont fontWithName:@"Tensentype JiaLiXiYuanJ" size:x]
+
+
+
+
+
+#endif /* PrefixHeader_pch */
